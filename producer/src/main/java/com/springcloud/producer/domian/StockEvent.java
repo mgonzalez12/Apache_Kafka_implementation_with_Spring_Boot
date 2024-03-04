@@ -14,6 +14,7 @@ import lombok.NoArgsConstructor;
 @Builder
 public class StockEvent {
 
+    @NotNull
     private Integer stockEventId;
     private StockEventType stockEventType;
     @NotNull
